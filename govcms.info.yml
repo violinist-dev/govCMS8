@@ -4,12 +4,6 @@ description:            'A GovCMS Drupal Distribution for government and the pub
 core:                   8.x
 base profile:           standard
 
-distribution:
-  name:                 GovCMS
-  langcode:             en
-  install:
-    theme:              govcmsinstall
-
 dependencies:
   # Drupal Core modules
   - block_content
