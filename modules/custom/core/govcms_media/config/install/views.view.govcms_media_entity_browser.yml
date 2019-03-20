@@ -3,15 +3,15 @@ status: true
 dependencies:
   config:
     - image.style.thumbnail
-    - media.type.file
-    - media.type.image
     - taxonomy.vocabulary.media_tags
   module:
     - entity_browser
     - image
-    - media
     - taxonomy
     - user
+  enforced:
+    module:
+      - media
 id: govcms_media_entity_browser
 label: 'GovCMS Media Entity Browser'
 module: views

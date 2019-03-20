@@ -1,15 +1,11 @@
 langcode: en
 status: true
 dependencies:
-  config:
-    - media.type.audio
-    - media.type.file
-    - media.type.image
-    - media.type.remote_video
-    - media.type.video
   module:
     - entity_embed
-    - media
+  enforced:
+    module:
+      - media
 label: 'Media Entity Embed'
 id: media_entity_embed
 type_id: entity

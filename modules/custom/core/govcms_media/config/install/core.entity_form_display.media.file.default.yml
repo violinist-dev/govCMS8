@@ -4,11 +4,13 @@ dependencies:
   config:
     - field.field.media.file.field_media_file
     - field.field.media.file.field_tags
-    - media.type.file
   module:
     - field_layout
     - file
     - layout_discovery
+  enforced:
+    module:
+      - media
 third_party_settings:
   field_layout:
     id: layout_onecol
