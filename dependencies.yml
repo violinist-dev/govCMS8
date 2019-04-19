@@ -9,7 +9,7 @@ dependencies:
 
     github_base_branch: 1.x  # branch to make PR against (if something other than your default branch)
 
-    after_branch: 
+    before_update: 
     - apk add php7-gd
     before_commit:
     - composer package
