@@ -7,8 +7,9 @@ dependencies:
 
     related_pr_behavior: close
 
-    github_milestone: 3  # milestone number
     github_base_branch: 1.x  # branch to make PR against (if something other than your default branch)
 
+    after_branch: 
+    - apk add php7-gd
     before_commit:
     - composer package
