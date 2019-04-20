@@ -161,7 +161,10 @@
     "config": {
         "bin-dir": "bin/",
         "sort-packages": true,
-        "optimize-autoloader": true
+        "optimize-autoloader": true,
+        "platform": {
+            "php": "7.1"
+        }
     },
     "conflict": {
         "drupal/core": "7.*",
