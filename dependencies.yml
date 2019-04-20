@@ -11,7 +11,7 @@ dependencies:
 
     before_update:
     - echo "memory_limit=-1" >> /usr/local/etc/php/conf.d/memory.ini
-    - COMPOSER_MEMORY_LIMIT=-1
+    - export COMPOSER_MEMORY_LIMIT=-1
     - php -ini
     before_commit:
     - composer package
