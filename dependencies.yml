@@ -11,5 +11,6 @@ dependencies:
 
     before_update:
     - php -m
+    - COMPOSER_MEMORY_LIMIT=-1
     before_commit:
     - composer package
