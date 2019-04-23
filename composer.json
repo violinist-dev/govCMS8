@@ -97,7 +97,7 @@
     },
     "require-dev": {
         "bex/behat-screenshot": "^1.2",
-        "composer/composer": "^1.5",
+        "composer/composer": "^1.8",
         "dmore/behat-chrome-extension": "^1.1",
         "drupal/coder": "^8.3",
         "drupal/console": "^1.3",
