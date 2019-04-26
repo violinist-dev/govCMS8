@@ -11,7 +11,6 @@ bin/*
 reports
 
 # Composer vendor
-composer.lock
 vendor/
 vendor/.git
 
